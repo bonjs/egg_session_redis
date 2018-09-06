@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<script src="//cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+	
+	</head>
+	<body>
+		<% if (username) {%>
+		<h2>欢迎你，<%=username %></h2>
+		<%} else {%>
+		<h2>请<a href="./login">登录</a></h2>
+		<%}%>
+	</body>
+</html>
